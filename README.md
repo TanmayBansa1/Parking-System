@@ -1,10 +1,11 @@
 Project on parking system
 
-1. Introduction
-  The  Parking System is an innovative solution designed to automate the parking process. This system utilizes OpenCV for license plate recognition, Tesseract-OCR for optical character recognition, and MongoDB for data storage. The project aims to streamline the parking experience, providing convenience and efficient management. The system captures the license plate number of vehicles entering the parking area, stores it in the database, collects the owner's details, and calculates the parking charges based on the duration of stay.
+1. Introduction  
+
+   The  Parking System is an innovative solution designed to automate the parking process. This system utilizes OpenCV for license plate recognition, Tesseract-OCR for optical character recognition, and MongoDB for data storage. The project aims to streamline the parking experience, providing convenience and efficient management. The system captures the license plate number of vehicles entering the parking area, stores it in the database, collects the owner's details, and calculates the parking charges based on the duration of stay.
 
 
-2. System Components
+3. System Components
 
   i) OpenCV for License Plate Recognition
     OpenCV is used for real-time license plate detection and recognition. It captures the license plate image, processes it, and extracts the alphanumeric characters using image processing techniques.
@@ -43,21 +44,23 @@ Project on parking system
 
 5. Implementation Steps
 
-  1. License Plate Recognition:
+  
+  a. License Plate Recognition:
    - Implement OpenCV algorithms for license plate detection and extraction.
    - Integrate Tesseract-OCR for character recognition from the license plate image.
 
-  2. Database Integration:
+  b. Database Integration:
    - Set up MongoDB database to store license plate numbers, owner details, and timestamps.
 
-  3. User Interaction:
+  c. User Interaction:
    - Implement a user interface to collect car owner's name and phone number.
 
-  4. Parking Duration and Charges Calculation:
+  d. Parking Duration and Charges Calculation:
    - Calculate the parking duration based on entry and exit timestamps.
    - Compute parking charges using the rate of 20 rupees per hour.
 
 
 6. Conclusion
-    The  Parking System with License Plate Recognition, Tesseract-OCR, and MongoDB integration provides an efficient and user-friendly solution for managing parking spaces. By automating the process of license plate recognition, data storage, and payment calculation, the system enhances the overall parking experience for both users and parking operators. This project demonstrates the seamless integration of various technologies to create a practical and innovative solution for modern parking management.
+
+   The  Parking System with License Plate Recognition, Tesseract-OCR, and MongoDB integration provides an efficient and user-friendly solution for managing parking spaces. By automating the process of license plate recognition, data storage, and payment calculation, the system enhances the overall parking experience for both users and parking operators. This project demonstrates the seamless integration of various technologies to create a practical and innovative solution for modern parking management.
 
